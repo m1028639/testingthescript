@@ -18,7 +18,7 @@ git clone -b MINDTREE https://mdzafarimam:sana_2004@bitbucket.org/cameosaas/cata
 
 sudo chmod +x ~/catalyst-puppet/puppet/azure.sh
 
-sudo sh /home/ubuntu/catalyst-puppet/puppet/azure.sh '$env' '$nname' version='$nversion' node='$nnum' azure_public_hostname='$azure_public_hostname' azure_public_ip='$azure_public_ip' catalyst_environment='sqa'
+sudo sh /home/ubuntu/azure.sh 'azure007' 'dmp-central-node' version='v08' node='01' azure_public_hostname='dmp-central-node.westus.cloudapp.azure.com' azure_public_ip='$azure_public_ip' catalyst_environment='sqa'
 
 
 
